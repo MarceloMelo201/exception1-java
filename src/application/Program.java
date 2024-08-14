@@ -21,6 +21,7 @@ public class Program {
 
         if (!checkOut.after(checkIn)){
             System.out.println("Erro na reserva: Check-out deve ser uma data após o check-in");
+            System.out.println();
         }
         else {
             Reservation reservation = new Reservation(quartoNum, checkIn, checkOut);
